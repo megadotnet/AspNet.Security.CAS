@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Admin Only Page";
+}
+
+<h1>Role authorized page</h1>
+<h2>Your CAS name is: @User.Identity.Name</h2>
+
+<a asp-controller="Home" asp-action="Logout">Logout</a>
+
+<hr />
+
+<h2>Your claims:</h2>
+
+<ul>
+    @foreach (var claim in User.Claims)
+    {
+        <li>@claim.Value (@claim.Type)</li>
+    }
+</ul>
