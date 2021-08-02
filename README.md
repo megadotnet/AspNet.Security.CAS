@@ -1,7 +1,7 @@
 AspNetCore.Security.CAS
 ===================
 
-A [CAS 2.0](https://apereo.github.io/cas/5.2.x/protocol/CAS-Protocol-V2-Specification.html) authentication provider for [ASP.NET Core 2](https://docs.microsoft.com/en-us/aspnet/core/),
+A [CAS 2.0](https://apereo.github.io/cas/5.2.x/protocol/CAS-Protocol-V2-Specification.html) authentication provider for [ASP.NET Core 2/3.1](https://docs.microsoft.com/en-us/aspnet/core/),
 based on Microsoft's providers for [OAuth](https://github.com/aspnet/Security/tree/dev/src/Microsoft.AspNetCore.Authentication.OAuth) and [Twitter](https://github.com/aspnet/Security/tree/dev/src/Microsoft.AspNetCore.Authentication.Twitter).
 
 ## Usage
